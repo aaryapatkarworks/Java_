@@ -1,4 +1,4 @@
-class Restaurant {
+class Resturant {
 
     private boolean foodReady = false;
 
@@ -42,11 +42,11 @@ public class _07_WaitNotify {
 
     public static void main(String[] args) {
 
-        Restaurant restaurant = new Restaurant();
+        Resturant resturant = new Resturant();
 
-        Thread waiter = new Thread(() -> restaurant.waiter());
+        Thread waiter = new Thread(() -> resturant.waiter());
 
-        Thread chef = new Thread(() -> restaurant.chef());
+        Thread chef = new Thread(() -> resturant.chef());
 
         waiter.start();
 
