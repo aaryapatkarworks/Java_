@@ -1,0 +1,9 @@
+Student Name : Aarya
+Course       : B.Tech CSE
+Semester     : 7
+CGPA         : 9.10
+College      : MIT-WPU
+Student Name : Shelly
+Course : B.Tech CSE AI-DS
+Semester : 7
+CGPA : 9.10

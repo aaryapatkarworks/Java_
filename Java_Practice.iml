@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Week_04_Wrapper_Classes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Food_Delivery_System" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week_05_Multithreading" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_06_File_Hadling" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
