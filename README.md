@@ -1,18 +1,20 @@
-# Java Practice
+# Java Backend Preparation
 
-A structured repository documenting my Java learning journey through hands-on coding, practice programs, and mini-projects. This repository serves as a personal knowledge base while I build a strong foundation in Core Java and Object-Oriented Programming.
+A structured repository documenting my Java learning journey through hands-on coding, practice programs, mini-projects, and backend development concepts.
 
-The primary goal of this repository is to strengthen my Core Java fundamentals, master Object-Oriented Programming, and build a solid foundation for Java backend development.
+The purpose of this repository is to build a strong foundation in Java, understand object-oriented design, and develop the technical skills required for backend software development.
 
 ---
 
 ## Objectives
 
-- Learn Core Java concepts through practical implementation
-- Build a strong understanding of Object-Oriented Programming
-- Improve logical thinking and problem-solving skills
-- Follow clean coding practices
-- Maintain a structured Git workflow with meaningful commits
+- Build a strong foundation in Core Java
+- Master Object-Oriented Programming concepts
+- Learn advanced Java and backend technologies
+- Strengthen problem-solving through practical implementation
+- Follow clean coding principles and best practices
+- Maintain a structured and organized codebase
+- Develop consistent Git and GitHub practices
 
 ---
 
@@ -21,19 +23,46 @@ The primary goal of this repository is to strengthen my Core Java fundamentals, 
 ```text
 Java_Practice/
 │
-├── Week_01_CoreJava/
-├── Week_02_OOP/
-├── Week_03_ExceptionHandling/
-├── Week_04_Wrapper_Classes/
-├── Week_05_Collections_Framework/
-├── Week_06_File_Handling/
-├── Week_07_Java8_Features/
-├── Week_08_JDBC/
-├── Week_09_Maven/
+├── 01_Core_Java/
+├── 02_Object_Oriented_Programming/
+├── 03_Exception_Handling/
+├── 04_Wrapper_Classes/
+├── 05_Multithreading/
+├── 06_File_Handling/
+├── 07_Collections_Framework/
+├── 08_Java8_Features/
+├── 09_JDBC/
+├── 10_Maven/
+├── 11_Spring/
+├── 12_Spring_Boot/
+│
+├── Mini_Projects/
 │
 ├── README.md
 └── .gitignore
 ```
+
+---
+
+## Topics
+
+This repository includes practical implementations of:
+
+- Core Java
+- Object-Oriented Programming
+- Exception Handling
+- Wrapper Classes
+- Collections Framework
+- Multithreading and Concurrency
+- File Handling (IO and NIO)
+- Java 8 Features
+- JDBC
+- Maven
+- Spring Framework
+- Spring Boot
+- REST APIs
+- Hibernate and JPA
+- Mini Projects
 
 ---
 
@@ -46,31 +75,33 @@ Java_Practice/
 
 ---
 
-## Learning Approach
+## Learning Methodology
 
-Each topic in this repository is explored through:
+Each topic is explored through:
 
-- Understanding the underlying concepts
-- Implementing concepts through coding from scratch
-- Solving practice problems
-- Building small console-based applications
-- Maintaining a clean and organized project structure
+- Conceptual understanding
+- Hands-on implementation
+- Practice programs
+- Problem-solving exercises
+- Mini-project development
+- Clean coding practices
 
 ---
 
 ## Repository Highlights
 
-- Well-structured weekly organization
-- Consistent coding practice
-- Meaningful Git commit history
-- Clean and readable code
-- Focus on learning through implementation
+- Well-organized learning modules
+- Practical implementation of Java concepts
+- Structured mini-projects
+- Interview-oriented coding practice
+- Consistent version control using Git
+- Clean, readable, and maintainable code
 
 ---
 
-## Notes
+## Purpose
 
-This repository is continuously updated as I progress through my Java learning roadmap. New topics, practice programs, and mini-projects will be added regularly.
+This repository serves as a personal knowledge base for learning Java and backend development through practical implementation. It reflects a structured approach to mastering Java fundamentals while following industry-standard coding practices and software development workflows.
 
 ---
 
