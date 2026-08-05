@@ -15,6 +15,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Week_05_Multithreading" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week_06_File_Hadling" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week_07_Collections" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MiniProjects" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
