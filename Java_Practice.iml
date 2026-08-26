@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/MiniProjects/ECommerce_Order_Inventory_System" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MiniProjects/Employee_Management_System" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MiniProjects/Food_Delivery_System" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_08_Java8_Features" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
