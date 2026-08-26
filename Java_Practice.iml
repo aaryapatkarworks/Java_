@@ -15,7 +15,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Week_05_Multithreading" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week_06_File_Hadling" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week_07_Collections" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/MiniProjects" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MiniProjects/BankAccount" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MiniProjects/ECommerce_Order_Inventory_System" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MiniProjects/Employee_Management_System" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MiniProjects/Food_Delivery_System" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
