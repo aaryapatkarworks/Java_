@@ -1,0 +1,8 @@
+P101|MacBook Air M3|Laptop|99999.0|8|4.8
+P102|Sony WH-1000XM5|Audio|29990.0|18|4.7
+P103|Logitech MX Master 3S|Accessories|7995.0|25|4.8
+P104|Samsung T7 SSD|Storage|6999.0|50|4.6
+P105|Keychron K2|Accessories|9999.0|12|4.5
+P106|iPhone 16|Smartphone|79999.0|15|4.7
+P107|Dell UltraSharp Monitor|Monitor|42999.0|10|4.6
+P108|JBL Flip 6|Audio|11999.0|30|4.5

@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Order implements Comparable<Order> {
+public class EcommerceOrder implements Comparable<EcommerceOrder> {
 
     public enum Priority {
         LOW,
@@ -23,7 +23,7 @@ public class Order implements Comparable<Order> {
     private Priority priority;
     private Status status;
 
-    public Order(
+    public EcommerceOrder(
             String orderId,
             String customerName,
             Priority priority
@@ -76,7 +76,7 @@ public class Order implements Comparable<Order> {
 
     // Natural ordering: CRITICAL → HIGH → MEDIUM → LOW
     @Override
-    public int compareTo(Order other) {
+    public int compareTo(EcommerceOrder other) {
 
         return Integer.compare(
                 other.priority.ordinal(),
