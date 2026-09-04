@@ -32,9 +32,10 @@ Java_Practice/
 ├── 07_Collections_Framework/
 ├── 08_Java8_Features/
 ├── 09_JDBC/
-├── 10_Maven/
-├── 11_Spring/
-├── 12_Spring_Boot/
+├── 10_JPA_Hibernate/
+├── 11_Maven/
+├── 12_Spring/
+├── 13_Spring_Boot/
 │
 ├── Mini_Projects/
 │
