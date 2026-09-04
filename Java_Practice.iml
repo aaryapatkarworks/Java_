@@ -20,8 +20,10 @@
       <sourceFolder url="file://$MODULE_DIR$/MiniProjects/Employee_Management_System" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MiniProjects/Food_Delivery_System" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week_08_Java8_Features" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week_09_JDBC" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="mysql-connector-j-26.7.0" level="project" />
   </component>
 </module>
