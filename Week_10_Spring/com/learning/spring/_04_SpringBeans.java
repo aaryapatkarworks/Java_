@@ -25,9 +25,7 @@ public class _04_SpringBeans {
                         _04_SpringBeans.class
                 );
 
-        /*
-         * Retrieve the Spring Bean.
-         */
+        //Retrieve the Spring Bean.
 
         Student student = context.getBean(Student.class);
 

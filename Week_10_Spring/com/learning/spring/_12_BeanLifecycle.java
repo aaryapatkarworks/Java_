@@ -2,76 +2,47 @@ package com.learning.spring;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;
-
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
-@Configuration
+@Component
+class DatabaseBean {
+
+    public DatabaseBean() {
+        System.out.println("1. Constructor called");
+    }
+
+    @PostConstruct
+    public void init() {
+        System.out.println("2. Bean initialized");
+    }
+
+    public void connect() {
+        System.out.println("3. Database connected");
+    }
+
+    @PreDestroy
+    public void destroy() {
+        System.out.println("4. Bean destroyed");
+    }
+}
+
 @ComponentScan("com.learning.spring")
+class LifecycleConfig {
+}
+
 public class _12_BeanLifecycle {
 
     public static void main(String[] args) {
 
         AnnotationConfigApplicationContext context =
-                new AnnotationConfigApplicationContext(
-                        _12_BeanLifecycle.class
-                );
+                new AnnotationConfigApplicationContext(LifecycleConfig.class);
 
-
-        DatabaseConnectionLifecycle database =
-                context.getBean(
-                        DatabaseConnectionLifecycle.class
-                );
+        DatabaseBean database = context.getBean(DatabaseBean.class);
 
         database.connect();
 
-
-        /*
-         * Closing the container triggers
-         * @PreDestroy.
-         */
-
         context.close();
-    }
-}
-
-
-@Component
-class DatabaseConnectionLifecycle {
-
-    /*
-     * Runs after Bean creation
-     * and dependency injection.
-     */
-
-    @PostConstruct
-    public void initialize() {
-
-        System.out.println(
-                "Database connection initialized"
-        );
-    }
-
-
-    public void connect() {
-
-        System.out.println(
-                "Connected to database"
-        );
-    }
-
-
-    /*
-     * Runs before Bean destruction.
-     */
-
-    @PreDestroy
-    public void cleanup() {
-
-        System.out.println(
-                "Database connection closed"
-        );
     }
 }
