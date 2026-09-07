@@ -1,35 +1,19 @@
-/*
- * Topic 01: Introduction to Spring
- *
- * Demonstrates the problem of tight coupling.
- */
+package com.learning.spring;
 
 public class _01_SpringIntroduction {
 
-    // Dependency class
-    static class Engine {
-
-        void start() {
-            System.out.println("Engine started");
-        }
-    }
-
-    // Car is tightly coupled with Engine
-    static class Car {
-
-        // Car directly creates its dependency
-        private Engine engine = new Engine();
-
-        void drive() {
-            engine.start();
-            System.out.println("Car is driving");
-        }
-    }
-
     public static void main(String[] args) {
 
-        Car car = new Car();
+        // Traditional Java object creation
+        StudentIntroduction student = new StudentIntroduction();
 
-        car.drive();
+        student.study();
+    }
+}
+
+class StudentIntroduction {
+
+    public void study() {
+        System.out.println("Student is studying");
     }
 }
